@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: table;
+  height: 100%;
+}
+.content {
+  display: table-row;
+  height: 100%;
+}
+.header{
+	position: fixed;
+	height: 170px;
+	width:100%;
+	background-color: #006400;
+}
+.header img{
+	margin-top: 20px;
+	width: 150px;
+	height: 100px;
+	float: left;
+
+}
+.headertext {
+	left: 100px;
+	text-align:left;
+    padding: 10px;
+    font-size: 100px;
+    color: gold;
+    font-family: Arial;
+}
+.maincont{
+	position: fixed;
+	top:170px;
+	height: 80%;
+	width: 100%;
+	background-color: #008000;
+}
+.block1 img{
+	margin-top: 20px;
+	width: 25%;
+	float: left;
+}
+.block1text{
+	left: 100px;
+	text-align:left;
+    padding: 10px;
+    font-size: 35px;
+    color: gold;
+    font-family: Arial;
+}
+.block2{
+padding-top: 80px;
+}
+.block2text{
+	left: 100px;
+	text-align:left;
+    padding: 10px;
+    font-size: 45px;
+    color: gold;
+    font-family: Arial;
+}
+.block2 img{
+	margin-top: 20px;
+	width: 20%;
+	float: right;
+}
+.block3{
+	margin-top: 20px;
+	margin-left: 200px;
+	width: 100%;
+	float: left;
+    position: absolute;	
+    float:right;
+    text-align: center;
+}
+.block3text1{ 
+    margin: 10px; 
+	border: 3px solid black;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    font-size: 19px;
+}
+.block3text2{
+	 margin: 10px;
+	float:left;
+	border: 3px solid black;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    font-size: 19px;
+}
+.block3text3{
+	margin: 10px;
+	float:left;
+	border: 3px solid black;
+    width: 20%;
+    padding: 10px;
+    font-size: 19px;
+}
+
+
+
+
+
+.footer{
+width: 100%;
+height: 10%;
+position: fixed;
+background-color: #32CD32;
+bottom: 0px; 	
+text-align: center;
+font-size: 400%;
+color:white;
+}
